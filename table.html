@@ -7,7 +7,7 @@
     <style>
         table, tr, td {
             border-collapse: separate;
-            border: 2px solid blue;
+            border: 1px solid black;
         }
     </style>
 </head>
@@ -27,44 +27,28 @@
     <table style="width: 600px; height: 500px;" >
     <tbody>
         <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
+            <td colspan="2" style="background-color: gray;">1</td>
+            <td style="background-color: darkolivegreen;">3</td>
+            <td style="background-color: darkolivegreen;">4</td>
+            <td style="background-color: darkolivegreen;">5</td>
+            <td rowspan="3" style="background-color: rgb(69, 139, 46);">6</td>
         </tr>
         <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
+            <td rowspan="2" style="background-color: green;">1</td>
+            <td style="background-color: darkolivegreen;">2</td>
+            <td rowspan="2" colspan="3" style="background-color: darkgoldenrod;">3</td>
         </tr>
         <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
+            <td style="background-color: darkolivegreen;">1</td>
         </tr>
         <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
+            <td rowspan="2" colspan="3" style="background-color: blue;">1</td>
+            <td style="background-color: darkolivegreen;">3</td>
+            <td style="background-color: darkolivegreen;">4</td>
+            <td rowspan="2" style="background-color: green;">5</td>
         </tr>
         <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
+            <td colspan="2" style="background-color: gray;">3</td>
         </tr>
     </tbody>
     </table>
