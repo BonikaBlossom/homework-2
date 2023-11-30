@@ -1,3 +1,8 @@
 body {
     background: grey;
 }
+
+td {
+    width: 100px; height: 60px;
+}
+.table {}
