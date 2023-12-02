@@ -1,8 +1,28 @@
-body {
-    background: grey;
+* {
+    box-sizing: border-box;
 }
 
+
+
 td {
-    width: 100px; height: 60px;
+    width: 100px; 
+    height: 60px;
 }
-.table {}
+.bg-grey {
+    background: gray;
+}
+.bg-green {
+    background: green;
+}
+.bg-yellow {
+    background: darkgoldenrod;
+}
+.bg-blue {
+    background: blue;
+}
+.bg-bolotgreen {
+    background: darkolivegreen;
+}
+.bg-greenligt {
+    background: rgb(69, 139, 46);
+}
