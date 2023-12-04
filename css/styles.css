@@ -26,3 +26,85 @@ td {
 .bg-greenligt {
     background: rgb(69, 139, 46);
 }
+
+.firstconteiner {
+    font-size: 0;
+    width: 1200px;
+
+}
+
+.firstconteiner > div {
+    background: skyblue;
+    outline: 2px solid red;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    font-size: 16px;
+}
+.secondconteiner {
+    font-size: 0;
+    width: 1200px;
+}
+
+.secondconteiner div {
+    background: greenyellow;
+    outline: 2px solid red;
+}
+.secondconteiner > div {
+    display: inline-block;
+    width: 800px;
+    font-size: 16px;
+    vertical-align: top 
+}
+.secondconteiner > div > div {
+    height: 200px;
+    font-size: 16px;
+}
+.secondconteiner > div + div {
+width: 400px;
+}
+.secondconteiner > div + div > div {
+    height: 133.3px;
+}
+
+.thirtconteiner {
+    font-size: 0;
+    width: 1200px;
+}
+.thirtconteiner div {
+    background: darkorange;
+    outline: 2px solid red;
+}
+.thirtconteiner9 {
+    float: left;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+.thirtconteiner10 {
+    width: 800px;
+    height: 200px;
+    float: right;
+    display: inline-block;
+}
+.thirtconteiner11 {
+    width: 400px;
+    height: 200px;
+    vertical-align:bottom;
+    float: left;
+    display: inline-block;
+}
+.thirtconteiner12 {
+    width: 400px;
+    height: 100px;
+    vertical-align:bottom;
+    float: right;
+    display: inline-block;
+}
+.thirtconteiner13 {
+    width: 400px;
+    height: 100px;
+    vertical-align:bottom;
+    float: right;
+    display: inline-block;
+}
